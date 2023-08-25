@@ -1,0 +1,3 @@
+jdbc:mysql://localhost:3306/bank_test
+phil
+2Tx;MF:lDVvAUOb0|JwU

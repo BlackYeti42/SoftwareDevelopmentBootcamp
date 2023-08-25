@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Temporary Password</title>
+  <style>
+    
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .outer-table {
+      width: 100%;
+      margin: 0px;
+      padding: 0;
+      border: 0;
+      border-collapse: collapse;
+    }
+
+    .inner-table {
+      margin: 0 auto;
+      padding: 0;
+      border-collapse: collapse;
+      border-radius: 3vh;
+      overflow: hidden;
+    }
+    th{
+        text-align: justify;
+        text-justify: inter-word;
+        height: 4vh;
+        margin: 0;
+      }
+      td{
+        padding: 1vh 4vh;
+        text-align: justify;
+        text-justify: inter-word;
+        height: 4vh;
+        margin: 0;
+      }
+  </style>
+</head>
+<body>  
+  <table class="outer-table" cellpadding="0" cellspacing="0">
+    <tr valign="top">
+      <td style="padding: 0;" align="center">
+        
+        <table class="inner-table">
+        <tr style="background-color: #007bff;" max-width="40%" color="#ffffff" border-top-left-radius="3vh" border-top-right-radius="3vh">
+          <th style="width: 50%; text-align: left; padding: 1vh 1vh 1vh 4vh;"><img src="cid:image1" alt="BankofPhil.png"/></th>
+          <th style="width: 50%; text-align: right; padding: 1vh 4vh 1vh 1vh;"><img src="cid:image2" alt="TemporaryPassword.png"/></th>       
+        </tr>
+        
+        <tr style="background-color: #e9e9e9;">
+          <td style="color: #0568ce; vertical-align: bottom; font-size: 18pt; height:6vh;"><b>Hello,</b></td>
+          <td></td>
+        
+        <tr style="background-color: #e9e9e9;">
+          <td colspan="2" style="color: black; font-size: 12pt;">Here is your temporary password to login to your Bank of Phil account.</td>      
+        
+        </tr>
+        <tr style="background-color: #e9e9e9;">
+          <td colspan="2" style="color: #0568ce; text-align: center; font-size: 16pt;">{{passwordVariable}}</td>      
+        
+        </tr>
+        <tr style="background-color: #e9e9e9;">
+          <td colspan="2" style="color: black; font-size: 12pt;">Enter this one-time-use password in the ATM to complete the login process. Remember that this password is case sensitive.</td>
+        </tr>
+        <tr style="background-color: #e9e9e9;">
+          <td colspan="2" style="color: black; font-size: 12pt;">If you did not attempt to login to an ATM, contact us immediately: your account may have been compromised.</td>
+        </tr>
+        <tr style="background-color: #e9e9e9;">
+          <td colspan="2" style="color: black; font-size: 12pt;">Do not share this password with <b>anyone</b>.</td>
+        </tr>
+        <tr style="background-color: #e9e9e9;">
+          <td colspan="2" style="color: black; text-align: center; vertical-align:top; font-size: 12pt;"><i>Thank you for trusting us with your banking needs.</i></td>
+        
+        </tr>
+        
+        <tr style="background-color: #007bff; ">
+          <td colspan="2" style="color: white; text-align: center; font-size: 12pt;"><b>Please do not reply to this email. This is an unmonitered account.<b></td>
+        
+        </tr>
+      </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

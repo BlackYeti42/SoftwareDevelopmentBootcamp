@@ -1,0 +1,4 @@
+bankofphil.authenticate@gmail.com
+smtp.gmail.com
+sogiyxdrickbwmqi
+587
